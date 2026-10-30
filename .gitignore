@@ -1,0 +1,10 @@
+node_modules/
+.next/
+.env*
+!.env.example
+*.tsbuildinfo
+.vercel/
+# Keep the standalone install reproducible despite the parent repository's rules.
+!package-lock.json
+# Next.js generates local agent guidance during development.
+AGENTS.md
