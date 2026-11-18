@@ -1,6 +1,7 @@
 import type { NextConfig } from 'next';
 const config: NextConfig = {
   poweredByHeader: false,
+  experimental: { agentUpgrade: 'security' },
   turbopack: { root: __dirname },
   outputFileTracingRoot: __dirname,
   async headers() {
